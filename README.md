@@ -13,15 +13,18 @@ pandas
 sklearn
 ```
 
-## Download the data
+## Data Source
 
-Due to the limit of the file size on Github, we store the data on Google Drive. Please download the data here: 
-https://drive.google.com/drive/folders/1hPyc1jJ9pPyjZwObHZQ8xet1H9JRSrnJ?usp=drive_link.
+[datasetA](https://snap.stanford.edu/biodata/datasets/10028/10028-PP-Miner.html) Reference: Szklarczyk, Damian, et al. "The STRING database in 2017: quality-controlled protein–protein association networks, made broadly accessible." _Nucleic Acids Research_. 2016.
+
+[datasetB](https://github.com/yangkuoone/HerGePred/tree/master) Reference: K. Yang et al., "Hergepred: Heterogeneous network embedding representation for disease gene prediction." _IEEE Journal of Biomedical and Health Informatics_, vol. 23, no. 4, pp. 1805–1815, Jul. 2019.
+
+[datasetC](https://github.com/juanshu30/Disease-Gene-Prioritization-with-Privileged-Information-and-Heteroscedastic-Dropout) Reference: J. Shu, Y. Li, S. Wang, B. Xi, and J. Ma, "Disease gene prediction with privileged information and heteroscedastic dropout." _Bioinformatics_, vol. 37, no. 1, pp. 410–417, Jul. 2021.
 
 ## To run DAVAGE
 
 python main.py --dropout {dropout} --EPOCHS {epoch} --HIDDEN-SIZE {hidden_size} --OUT-CHANNELS {out_ch} --HEADS {head} --output-path test_out/her/{command_counter}/
 
-## Contacts
+## License
 
-If you have any questions, please contact us via zhangyuan@mail.imu.edu.cn
+Yuan Zhang, Juan Wang, Jiajie Xing, Xiaomin Chen. Identifying disease-gene associations by topological and biological feature-based data augmentation and graph neural networks, IEEE Journal of Biomedical and Health Informatics, 2025.
